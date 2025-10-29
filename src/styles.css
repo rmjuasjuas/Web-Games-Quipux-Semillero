@@ -1,1 +1,254 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial;
+  background-color: #444;
+  color: white;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 15px;
+}
+
+.contenedor-nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.titulo-principal {
+  font-size: 24px;
+  color: #9d4edd;
+}
+
+.menu-botones {
+  display: flex;
+  gap: 10px;
+}
+
+.menu-botones button {
+  background: none;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.pagina-actual {
+  background-color: #6a0dad;
+  border-radius: 5px;
+}
+
+.boton-carrito {
+  background-color: #6a0dad;
+  position: relative;
+  border-radius: 5px;
+}
+
+.badge-carrito {
+  background: red;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.pagina {
+  min-height: 80vh;
+  padding: 20px;
+}
+
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.banner-principal {
+  text-align: center;
+  padding: 40px;
+  background: rgb(0, 0, 0);
+  margin-bottom: 30px;
+}
+
+.btn-principal {
+  background-color: #6a0dad;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  cursor: pointer;
+}
+
+.grid-juegos, .lista-productos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.tarjeta-juego, .producto-item {
+  background: #555;
+  width: 250px;
+  padding: 10px;
+}
+
+.imagen-container, .producto-imagen {
+  height: 300px;
+  background: #666;
+}
+
+.imagen-container img, .producto-imagen img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.info-tarjeta, .producto-info {
+  padding: 10px;
+  text-align: center;
+}
+
+.precio, .precio-producto {
+  color: #9d4edd;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn-agregar, .btn-comprar {
+  background-color: #6a0dad;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.contenedor-filtros {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px;
+}
+
+.btn-filtro {
+  background: #555;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.activo {
+  background-color: #6a0dad;
+}
+
+.carrito-vacio {
+  text-align: center;
+  padding: 40px;
+  background: #555;
+}
+
+.item-carrito {
+  display: flex;
+  gap: 15px;
+  background: #555;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.detalles-item {
+  flex: 1;
+}
+
+.btn-eliminar {
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.resumen-compra {
+  background: #555;
+  padding: 20px;
+  text-align: center;
+}
+
+.btn-finalizar {
+  background: green;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.contenedor-contacto {
+  display: flex;
+  gap: 20px;
+}
+
+.info-contacto, .formulario-contacto {
+  background: #555;
+  padding: 25px;
+  flex: 1;
+}
+
+.input-form {
+  width: 100%;
+  background: #666;
+  border: 1px solid #777;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background: #222;
+  padding: 30px;
+  text-align: center;
+}
+
+.footer-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.footer-col {
+  flex: 1;
+}
+
+h2 {
+  text-align: center;
+  color: #9d4edd;
+}
+
+
+
+
+
+
+/* algunos estilos que agregue despues */
+.btn-principal:active {
+  transform: scale(0.98);
+}
+
+/* probe este color pero no me gusto 
+.navbar {
+  background-color: #2c2c2c;
+}
+*/

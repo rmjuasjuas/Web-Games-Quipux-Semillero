@@ -1,59 +1,62 @@
-# MyProject
+# Juegos JMRM
+**Juegos JMRM - Tienda de Videojuegos**  
+Sistema web interactivo para la visualización, búsqueda y compra de videojuegos para diferentes plataformas (PlayStation, Xbox, Nintendo y PC)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.6.
+# ¿Por qué lo hice?
+Los videojuegos han sido una parte importante de mi vida desde que era niño. Representan entretenimiento, arte y tecnología combinados. Me apasiona poder crear algo relacionado con lo que me gusta y aplicar mis conocimientos de programación en este proyecto. Hacer una tienda de videojuegos me permite unir dos cosas que amo: programar y los juegos.
 
-## Development server
+---
 
-To start a local development server, run:
+## Características Principales
 
-```bash
-ng serve
-```
+### Módulo de Catálogo
+- Visualización de juegos disponibles por plataforma
+- Sistema de filtros por consola
+- Imágenes
+- Diseño
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### Módulo de Carrito de Compras
+- Agregar juegos al carrito
+- Visualizar total de la compra
+- Eliminar productos del carrito
+- Sistema de compra con confirmación
 
-## Code scaffolding
+### Módulo de Contacto
+- Formulario de contacto
+- Información de la tienda
+- Horarios de atención
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+---
 
-```bash
-ng generate component component-name
-```
+## Tecnologías Utilizadas
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Frontend
+- **Angular** - Framework principal del proyecto
+- **TypeScript** - Lenguaje de programación base
+- **HTML / CSS** - Estructura y estilos
+- **Tailwind CSS** - Framework de utilidades CSS
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+## Funcionalidades Destacadas
+- Navegación entre páginas (Inicio, Productos, Carrito, Contacto)
+- Sistema de filtrado de productos por consola
+- Carrito de compras interactivo con cálculo automático del total
+- Validación para evitar productos duplicados en el carrito
+- Diseño moderno con gradientes y colores atractivos
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+## Contribución
+**YouTubers:** Consultas para resolver problemas específicos de Angular y CSS
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+## Autor
+**José Miguel Ríos Montoya**
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+---
 
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## ¿Preguntas y Contacto?
+**Correo:** jomirimo09@hotmail.com  
+**Teléfono:** +57 314 3650691  
